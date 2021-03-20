@@ -48,7 +48,7 @@ using namespace Defs;
 //---------------------------------------------------------------------------
 DefinitionDialog::DefinitionDialog(WordEngine* e, const QString& lexicon,
                                    const QString& word, QWidget* parent,
-                                   Qt::WFlags f)
+                                   Qt::WindowFlags f)
     : QDialog(parent, f), engine(e)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

@@ -101,7 +101,7 @@ using namespace Defs;
 //! @param f widget flags
 //---------------------------------------------------------------------------
 JudgeDialog::JudgeDialog(WordEngine* e, const QString& lex,
-    const QString& pass, QWidget* parent, Qt::WFlags f)
+    const QString& pass, QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f), engine(e), lexicon(lex), password(pass),
     altPressed(false), count(0), clearResultsHold(0), fontMultiplier(0)
 {

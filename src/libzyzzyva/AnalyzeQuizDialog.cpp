@@ -51,7 +51,7 @@ using namespace Defs;
 //! @param f widget flags
 //---------------------------------------------------------------------------
 AnalyzeQuizDialog::AnalyzeQuizDialog(QuizEngine* qe, WordEngine* we, QWidget*
-                                     parent, Qt::WFlags f)
+                                     parent, Qt::WindowFlags f)
     : QDialog(parent, f), quizEngine(qe), wordEngine(we)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

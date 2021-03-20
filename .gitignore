@@ -1,4 +1,5 @@
 /.DS_Store
+/.qmake.stash
 /Makefile
 /Zyzzyva.app
 /bin/
@@ -8,6 +9,7 @@
 /src/libzyzzyva/moc_*
 /src/tests/Makefile
 /src/tests/*.moc
+/src/tests/moc_*
 /src/tests/*.o
 /src/zyzzyva/Makefile
 /src/zyzzyva/qrc_zyzzyva.cpp

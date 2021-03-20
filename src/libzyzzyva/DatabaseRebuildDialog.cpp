@@ -42,7 +42,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-DatabaseRebuildDialog::DatabaseRebuildDialog(QWidget* parent, Qt::WFlags f)
+DatabaseRebuildDialog::DatabaseRebuildDialog(QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

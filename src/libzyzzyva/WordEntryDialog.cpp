@@ -45,7 +45,7 @@ using namespace Defs;
 //! @param modal whether the dialog is modal
 //! @param f widget flags
 //---------------------------------------------------------------------------
-WordEntryDialog::WordEntryDialog(QWidget* parent, Qt::WFlags f)
+WordEntryDialog::WordEntryDialog(QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f),
     wordValidator(new WordValidator(this))
 {

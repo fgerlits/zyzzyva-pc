@@ -38,7 +38,7 @@ class LexiconStyleDialog : public QDialog
 {
     Q_OBJECT
     public:
-    LexiconStyleDialog(QWidget* parent = 0, Qt::WFlags f = 0);
+    LexiconStyleDialog(QWidget* parent = 0, Qt::WindowFlags f = 0);
     ~LexiconStyleDialog();
 
     QList<LexiconStyle> getLexiconStyles() const;

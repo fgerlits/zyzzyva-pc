@@ -43,7 +43,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-WordListSaveDialog::WordListSaveDialog(QWidget* parent, Qt::WFlags f)
+WordListSaveDialog::WordListSaveDialog(QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

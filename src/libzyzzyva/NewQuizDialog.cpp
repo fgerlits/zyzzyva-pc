@@ -54,7 +54,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-NewQuizDialog::NewQuizDialog(QWidget* parent, Qt::WFlags f)
+NewQuizDialog::NewQuizDialog(QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

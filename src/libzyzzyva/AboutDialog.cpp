@@ -43,7 +43,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-AboutDialog::AboutDialog(QWidget* parent, Qt::WFlags f)
+AboutDialog::AboutDialog(QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

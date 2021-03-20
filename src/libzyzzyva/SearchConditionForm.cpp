@@ -74,7 +74,7 @@ using namespace Defs;
 //! @param name the name of this widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-SearchConditionForm::SearchConditionForm(QWidget* parent, Qt::WFlags f)
+SearchConditionForm::SearchConditionForm(QWidget* parent, Qt::WindowFlags f)
     : QWidget(parent, f),
     letterValidator(new WordValidator(this)),
     patternValidator(new WordValidator(this)), legacy(false)

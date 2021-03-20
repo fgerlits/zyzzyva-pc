@@ -35,7 +35,7 @@ class WordEntryDialog : public QDialog
 {
     Q_OBJECT
     public:
-    WordEntryDialog(QWidget* parent = 0, Qt::WFlags f = 0);
+    WordEntryDialog(QWidget* parent = 0, Qt::WindowFlags f = 0);
     ~WordEntryDialog();
 
     QString getWord() const { return wordLine->text(); }

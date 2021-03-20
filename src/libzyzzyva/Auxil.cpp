@@ -584,7 +584,7 @@ Auxil::getAlphagram(const QString& word)
     //int charsPlaced = 0;
 
     //for (int i = 0; i < wordLength; ++i) {
-    //    char c = word.at(i).toAscii();
+    //    char c = word.at(i).toLatin1();
     //    int j = 0;
     //    while ((j < charsPlaced) && (c >= chars[j]))
     //        ++j;

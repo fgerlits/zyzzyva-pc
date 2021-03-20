@@ -48,7 +48,7 @@ const QString NONE_STR = "(none)";
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-DefineForm::DefineForm(WordEngine* e, QWidget* parent, Qt::WFlags f)
+DefineForm::DefineForm(WordEngine* e, QWidget* parent, Qt::WindowFlags f)
     : ActionForm(DefineFormType, parent, f), engine(e)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

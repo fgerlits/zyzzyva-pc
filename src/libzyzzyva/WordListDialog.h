@@ -34,7 +34,7 @@ class WordListDialog : public QDialog
 {
     Q_OBJECT
     public:
-    WordListDialog(QWidget* parent = 0, Qt::WFlags f = 0);
+    WordListDialog(QWidget* parent = 0, Qt::WindowFlags f = 0);
     ~WordListDialog();
 
     int numWords() const { return wordList->count(); }

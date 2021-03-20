@@ -31,7 +31,7 @@ class AboutDialog : public QDialog
 {
     Q_OBJECT
     public:
-    AboutDialog(QWidget* parent = 0, Qt::WFlags f = 0);
+    AboutDialog(QWidget* parent = 0, Qt::WindowFlags f = 0);
     ~AboutDialog();
 };
 

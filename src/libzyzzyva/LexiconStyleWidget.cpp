@@ -46,7 +46,7 @@ const int MAX_SYMBOL_LENGTH = 3;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-LexiconStyleWidget::LexiconStyleWidget(QWidget* parent, Qt::WFlags f)
+LexiconStyleWidget::LexiconStyleWidget(QWidget* parent, Qt::WindowFlags f)
     : QWidget(parent, f)
 {
     QHBoxLayout* mainHlay = new QHBoxLayout(this);

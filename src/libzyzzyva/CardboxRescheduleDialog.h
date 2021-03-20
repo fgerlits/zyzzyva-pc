@@ -43,7 +43,7 @@ class CardboxRescheduleDialog : public QDialog
 {
     Q_OBJECT
     public:
-    CardboxRescheduleDialog(QWidget* parent = 0, Qt::WFlags f = 0);
+    CardboxRescheduleDialog(QWidget* parent = 0, Qt::WindowFlags f = 0);
     ~CardboxRescheduleDialog() { }
 
     public:

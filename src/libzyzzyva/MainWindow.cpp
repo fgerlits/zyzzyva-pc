@@ -89,7 +89,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-MainWindow::MainWindow(QWidget* parent, QSplashScreen* splash, Qt::WFlags f)
+MainWindow::MainWindow(QWidget* parent, QSplashScreen* splash, Qt::WindowFlags f)
     : QMainWindow(parent, f), splashScreen(splash),
       wordEngine(new WordEngine()), settingsDialog(new SettingsDialog(this)),
       aboutDialog(new AboutDialog(this))

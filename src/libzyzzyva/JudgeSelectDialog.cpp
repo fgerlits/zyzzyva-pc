@@ -43,7 +43,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-JudgeSelectDialog::JudgeSelectDialog(QWidget* parent, Qt::WFlags f)
+JudgeSelectDialog::JudgeSelectDialog(QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

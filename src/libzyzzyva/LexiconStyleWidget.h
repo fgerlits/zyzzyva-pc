@@ -33,7 +33,7 @@ class LexiconStyle;
 class LexiconStyleWidget : public QWidget {
     Q_OBJECT
     public:
-    LexiconStyleWidget(QWidget* parent = 0, Qt::WFlags f = 0);
+    LexiconStyleWidget(QWidget* parent = 0, Qt::WindowFlags f = 0);
     bool setLexiconStyle(const LexiconStyle& style);
     LexiconStyle getLexiconStyle() const;
 

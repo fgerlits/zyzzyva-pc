@@ -83,7 +83,7 @@ WordTableView::WordTableView(WordEngine* e, QWidget* parent)
     header()->setSortIndicatorShown(true);
     header()->setSortIndicator(WordTableModel::WORD_COLUMN,
         Qt::AscendingOrder);
-    header()->setClickable(true);
+    header()->setSectionsClickable(true);
     connect(header(), SIGNAL(sectionClicked(int)),
         SLOT(headerSectionClicked(int)));
 }

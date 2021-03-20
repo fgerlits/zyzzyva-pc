@@ -43,7 +43,7 @@ class WordVariationDialog : public QDialog
     public:
     WordVariationDialog(WordEngine* we, const QString& lex, const QString&
                         word, WordVariationType variation, QWidget* parent =
-                        0, Qt::WFlags f = 0);
+                        0, Qt::WindowFlags f = 0);
     ~WordVariationDialog();
 
     private:

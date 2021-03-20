@@ -48,7 +48,7 @@ const int MAX_CONDITIONS = 8;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-SearchSpecForm::SearchSpecForm(QWidget* parent, Qt::WFlags f)
+SearchSpecForm::SearchSpecForm(QWidget* parent, Qt::WindowFlags f)
     : QFrame(parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

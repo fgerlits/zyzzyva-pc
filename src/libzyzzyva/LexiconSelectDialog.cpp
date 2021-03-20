@@ -45,7 +45,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-LexiconSelectDialog::LexiconSelectDialog(QWidget* parent, Qt::WFlags f)
+LexiconSelectDialog::LexiconSelectDialog(QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

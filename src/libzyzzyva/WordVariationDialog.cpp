@@ -52,7 +52,7 @@ using namespace Defs;
 //---------------------------------------------------------------------------
 WordVariationDialog::WordVariationDialog(WordEngine* we, const QString& lex,
     const QString& word, WordVariationType variation, QWidget* parent,
-    Qt::WFlags f)
+    Qt::WindowFlags f)
     : QDialog(parent, f), wordEngine(we), lexicon(lex), topView(0), topModel(0),
     middleView(0), middleModel(0), bottomView(0), bottomModel(0)
 {

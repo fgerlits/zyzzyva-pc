@@ -39,7 +39,7 @@ class SearchSpecForm : public QFrame
 {
     Q_OBJECT
     public:
-    SearchSpecForm(QWidget* parent = 0, Qt::WFlags f = 0);
+    SearchSpecForm(QWidget* parent = 0, Qt::WindowFlags f = 0);
     SearchSpec getSearchSpec() const;
     void setSearchSpec(const SearchSpec& spec);
     bool isValid() const;

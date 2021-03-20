@@ -37,7 +37,7 @@ class DefineForm : public ActionForm
 {
     Q_OBJECT
     public:
-    DefineForm(WordEngine* e, QWidget* parent = 0, Qt::WFlags f = 0);
+    DefineForm(WordEngine* e, QWidget* parent = 0, Qt::WindowFlags f = 0);
     QIcon getIcon() const;
     QString getTitle() const;
     QString getStatusString() const;

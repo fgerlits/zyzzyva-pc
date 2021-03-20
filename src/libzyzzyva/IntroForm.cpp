@@ -35,7 +35,7 @@ const QString TITLE_PREFIX = "Welcome";
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-IntroForm::IntroForm(QWidget* parent, Qt::WFlags f)
+IntroForm::IntroForm(QWidget* parent, Qt::WindowFlags f)
     : ActionForm(IntroFormType, parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

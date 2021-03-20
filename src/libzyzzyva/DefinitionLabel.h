@@ -33,10 +33,10 @@ class DefinitionLabel : public QLabel
 {
     Q_OBJECT
     public:
-    DefinitionLabel(QWidget* parent = 0, Qt::WFlags f = 0)
+    DefinitionLabel(QWidget* parent = 0, Qt::WindowFlags f = 0)
         : QLabel(parent, f) { }
     DefinitionLabel(const QString& text, QWidget* parent = 0,
-                    Qt::WFlags f = 0)
+                    Qt::WindowFlags f = 0)
         : QLabel(text, parent, f) { }
 
     virtual ~DefinitionLabel() { }

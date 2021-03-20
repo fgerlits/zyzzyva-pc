@@ -37,7 +37,7 @@ class LexiconSelectDialog : public QDialog
 {
     Q_OBJECT
     public:
-    LexiconSelectDialog(QWidget* parent = 0, Qt::WFlags f = 0);
+    LexiconSelectDialog(QWidget* parent = 0, Qt::WindowFlags f = 0);
     ~LexiconSelectDialog();
 
     QStringList getImportLexicons() const;

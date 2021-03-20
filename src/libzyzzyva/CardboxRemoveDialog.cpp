@@ -41,7 +41,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-CardboxRemoveDialog::CardboxRemoveDialog(QWidget* parent, Qt::WFlags f)
+CardboxRemoveDialog::CardboxRemoveDialog(QWidget* parent, Qt::WindowFlags f)
     : QDialog(parent, f)
 {
     QVBoxLayout* mainVlay = new QVBoxLayout(this);

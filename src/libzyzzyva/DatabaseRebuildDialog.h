@@ -34,7 +34,7 @@ class DatabaseRebuildDialog : public QDialog
 {
     Q_OBJECT
     public:
-    DatabaseRebuildDialog(QWidget* parent = 0, Qt::WFlags f = 0);
+    DatabaseRebuildDialog(QWidget* parent = 0, Qt::WindowFlags f = 0);
     ~DatabaseRebuildDialog();
 
     bool getRebuildAll() const;

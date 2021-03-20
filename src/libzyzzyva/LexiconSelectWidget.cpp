@@ -40,7 +40,7 @@ using namespace Defs;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-LexiconSelectWidget::LexiconSelectWidget(QWidget* parent, Qt::WFlags f)
+LexiconSelectWidget::LexiconSelectWidget(QWidget* parent, Qt::WindowFlags f)
     : QWidget(parent, f)
 {
     QHBoxLayout* mainHlay = new QHBoxLayout(this);

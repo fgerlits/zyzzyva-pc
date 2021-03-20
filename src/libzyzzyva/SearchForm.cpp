@@ -53,7 +53,7 @@ const QString TITLE_PREFIX = "Search";
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-SearchForm::SearchForm(WordEngine* e, QWidget* parent, Qt::WFlags f)
+SearchForm::SearchForm(WordEngine* e, QWidget* parent, Qt::WindowFlags f)
     : ActionForm(SearchFormType, parent, f), wordEngine(e)
 {
     QHBoxLayout* mainHlay = new QHBoxLayout(this);

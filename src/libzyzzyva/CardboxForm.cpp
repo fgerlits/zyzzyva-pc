@@ -45,7 +45,7 @@ const int REFRESH_MSECS = 120000;
 //! @param parent the parent widget
 //! @param f widget flags
 //---------------------------------------------------------------------------
-CardboxForm::CardboxForm(WordEngine* e, QWidget* parent, Qt::WFlags f)
+CardboxForm::CardboxForm(WordEngine* e, QWidget* parent, Qt::WindowFlags f)
     : ActionForm(CardboxFormType, parent, f), wordEngine(e)
     //cardboxCountModel(0), cardboxDaysModel(0), cardboxContentsModel(0)
 {
